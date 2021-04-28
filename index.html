@@ -4,12 +4,129 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Timeline</title>
+    <link rel="stylesheet" href="./Styles/about-me.css">
+    <link rel="stylesheet" href="./Styles/landing.css">
+    <link rel="stylesheet" href="./Styles/timeline.css">
+    <link rel="stylesheet" href="./Styles/contact.css">
+    <title>My Portfolio</title>
   </head>
   <body>
     <!--Landing Section-->
+    <section>
+      <div id="header">
+        <div class="header-card">
+          <h1>
+            My Portfolio
+          </h1>
+        </div>
+      </div>
+    </section>
+    <!-- About Me-->
+    <section>
+      <div id="about-me">
+        <div class="about-me-card">
+          <h1 >
+            About Me
+          </h1>
+          <p>
+            Hello! My name is Jeandre Awood. I am 23 years old. I have an Undergradute Degree in Psychology as well as a Postgraduate Honours in Psychology. I am currently enrolled at Life Choices Academy where I am being trained as a Fullstack Developer.
+          </p>
+        </div>
+      </div>
+    </section>
     <!--Timeline-->
+    <section>
+      <div>
+        <h1> MY TIMELINE </h1>
+      </div>
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+          <div>
+            <div data-aos="flip-left" class="timeline-item item-1">
+              <h1>
+              Job Title
+              </h1>
+              <h2>
+              2017-2018
+              </h2>
+              <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, voluptas sit. Reprehenderit unde est alias dolor quod quis ad quam eligendi voluptate quos, doloribus porro voluptatum architecto. Tempora, beatae dolores.
+              </p>
+            </div>
+          </div>
+          <div data-aos="flip-right" class="timeline-item item-2">
+            <h1>
+              Job Title
+            </h1>
+            <h2>
+            2018-2019
+            </h2>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus vero est fugit suscipit. Necessitatibus accusantium blanditiis, debitis quia impedit officia. Quasi hic commodi deleniti porro sed corporis dolore harum veniam!
+            </p>
+          </div>
+          <div data-aos="flip-left" class="timeline-item item-3">
+            <h1>
+            Job Title
+            </h1>
+            <h2>
+            2019-2020
+            </h2>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam excepturi qui reprehenderit, cumque nemo, eveniet libero perferendis sunt exercitationem minus vitae illum molestias rem deleniti hic quidem nam magnam repellendus. 
+            </p>
+          </div>
+          <div data-aos="flip-right" class="timeline-item item-4">
+            <h1>
+            Job Title
+            </h1>
+            <h2>
+            2020-2021
+            </h2>
+            <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum odit pariatur, facilis consequuntur maiores sunt sapiente quidem, provident eaque atque vitae obcaecati ab voluptate id a quam praesentium aut quia!
+            </p>
+          </div>
+        </div>
+    </section>
+    <!--Contact-->
+    <section>
+            <form
+        id="form-container"
+        action="https://formspree.io/f/mknkgpoy"
+        method="POST"
+        >
+      <div>
+          <h1 class="heading">
+              contact form 
+          </h1>
+      </div>
+          <div class="form-group">
+              <label for="name" class="header" class="form-label">Your Name:</label>
+              <input id="name" type="text" required placeholder="Full name" name="name" class="form-input" >
+          </div>
+
+          <div class="form-group">
+              <label for="email" class="header" class="form-label">Your Email:</label>
+              <input type="email" name="email" id="email" required placeholder="example@mail.com" class="form-input" >
+          </div>
+
+          <div class="form-group">
+              <label for="contact" class="header" class="form-label">Your Number:</label>
+              <input id="contact" type="tel" name="contact" required placeholder="083 555 6789" min="10" max="10" class="form-input" >
+          </div>
+
+          <div class="form-group">
+              <label for="message" class="header" class="form-label">Your Message:</label>
+            <textarea required class="form-input" name="message" id="name" placeholder="Type your message here..."></textarea>
+          </div>
+      </div>
+
+      <!-- your other form fields go here -->
+
+          <button type="submit" class="button">Send</button>
+      </form>
+    </section>
   </body>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>

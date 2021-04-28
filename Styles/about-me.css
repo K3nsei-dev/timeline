@@ -1,0 +1,24 @@
+#about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-transform: uppercase;
+  flex-direction: column;
+  padding: 31px 31%;
+}
+
+h1 {
+  text-shadow: 4px 4px 4px white;
+}
+
+.about-me-card {
+  text-align: center;
+  background: rgba(87, 155, 6, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10%;
+}
