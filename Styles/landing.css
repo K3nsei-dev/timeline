@@ -8,7 +8,7 @@ body {
   color: black;
   font-size: 30px;
   font-family: Helvetica, sans-serif;
-  background-image: url(https://www.crushpixel.com/big-static14/preview4/3d-shapes-abstract-designelements-1803707.jpg);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/406/006/non_2x/abstract-flat-fluid-organic-shapes-background-free-vector.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -21,15 +21,14 @@ body {
   text-transform: uppercase;
   text-align: center;
   height: 100vh;
-  text-shadow: 4px 4px 4px green;
 }
 
 .header-card{
-    background: rgba( 87, 155, 6, 0.60 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 6.5px );
-    -webkit-backdrop-filter: blur( 6.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba( 108, 108, 108, 0.75 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7.0px );
+  -webkit-backdrop-filter: blur( 7.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 10%;
 }
